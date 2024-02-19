@@ -1,0 +1,513 @@
+QApplication, QString, QLabel, QPushButton
+{
+    font: url(":/rsc/fonts/GroteskThin.otf");
+}
+
+#main_widget, #main_menu, #menu_view, #drop_down_list
+{
+    background-color: rgb(43,46,55);
+}
+
+QScrollBar::up-arrow, QScrollBar::down-arrow
+{
+      border: none;
+      background: none;
+      color: none;
+}
+
+QScrollBar::add-line:vertical {
+      border: none;
+      background: none;
+}
+
+QScrollBar::sub-line:vertical {
+      border: none;
+      background: none;
+}
+
+QScrollBar
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: 5px;
+}
+
+QScrollBar::handle:vertical
+{
+    background-color: rgb(38,41,50);
+}
+
+QComboBox
+{
+    background-color: rgb(38,41,50);
+    color: rgb(77,132,152);
+    border-radius: 3px;
+    border: 1px solid rgb(48,51,60);
+    min-width: 120px;
+    height: 30px;
+}
+
+QComboBox::item
+{
+    background-color: rgb(38,41,50);
+    color: rgb(77,132,152);
+}
+
+QComboBox::item:selected
+{
+    background-color: rgb(33,36,45);
+}
+
+QComboBox::icon
+{
+    width: 6px;
+    height: 6px;
+}
+
+QComboBox::drop-down
+{
+
+}
+
+QAbstractItemView
+{
+    background-color: rgb(38,41,50);
+    border: none;
+}
+
+QListWidget
+{
+    border: none;
+    background-color: transparent;
+    spacing: 10px;
+}
+
+QListWidget::item
+{
+    height: 26px;
+    color: rgb(77,132,152);
+    text-align: center;
+    
+}
+
+QListWidget::item:selected
+{
+    background-color: rgb(33,36,45);
+    color: rgb(77,132,152);
+}
+
+QListWidget::icon, QListWidget::icon:selected
+{
+    width: 6px;
+    height: 6px;
+}
+
+QListWidgetItem
+{
+    
+}
+
+QListWidgetItem::icon
+{
+    width: 6px;
+    height: 6px;
+}
+
+#transparent
+{
+    background-color: transparent;
+}
+
+#frameless
+{
+    border: none;
+}
+
+#window_panel_controls
+{
+    background-color: transparent;
+    border: none;
+}
+
+#extended_status_text
+{
+    color: rgb(77,132,152);
+    
+}
+
+#contacts_sorting
+{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+#textarea
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: transparent;
+    color: gray;
+}
+
+#textarea:focus
+{
+    color: rgb(77,132,152);
+}
+
+#styled_button
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    border-radius: 3px;
+    height: 20px!important;
+    width: 162px;
+    color: rgb(77,132,152);
+    padding: 5px;
+}
+
+#styled_button_red
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    border-radius: 3px;
+    height: 20px!important;
+    width: 162px;
+    color: #823e2d;
+    padding: 5px;
+    
+}
+
+#sort_button
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    border-radius: 3px;
+    height: 28px;
+    width: 28px;
+    color: rgb(77,132,152);
+    padding: 5px;
+}
+
+#sort_button::icon
+{
+    width: 14px;
+    height: 14px;
+}
+
+#input
+{
+    border: 1px solid rgb(48,51,60);
+    height: 28px;
+    color: rgb(77,132,152);
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+#label
+{
+    color: rgb(77,132,152);
+    min-width: 80px;
+}
+
+#free_size_label
+{
+    color: rgb(77,132,152);
+    min-width: 80px;
+    
+}
+
+#error_label
+{
+    padding: 5px;
+    padding-left: 0;
+    color: #823e2d;
+    height: 28px;
+    min-width: 80px;
+    
+}
+
+#search_input
+{
+    border: 1px solid rgb(38,41,50);
+    height: 28px;
+    color: rgb(77,132,152);
+    background-color: rgb(43,46,55);
+    border-radius: 3px;
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+    padding-left: 5px;
+}
+
+#search_button
+{
+    border-radius: 0;
+    background-color: rgb(38,41,50);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#status_message
+{
+    color: rgb(77,132,152);
+    
+}
+
+QGroupBox
+{
+    border: 1px solid rgb(48,51,60);
+    padding: 10px;
+}
+
+QGroupBox::title
+{
+    padding: 5px;
+    color: rgb(77,132,152);
+    background-color: rgb(38,41,50);
+    border-bottom-right-radius: 3px;
+    
+}
+
+#drop_down_list
+{
+    background-color: transparent;
+}
+
+#drop_down_body
+{
+}
+
+#drop_down_head
+{
+    background-color: rgb(38,41,50);
+}
+
+#drop_down_title
+{
+    
+    color: rgb(77,132,152);
+    text-align: left;
+}
+
+#drop_down_counter
+{
+    
+    color: rgb(77,132,152);
+    text-align: right;
+}
+
+#drop_down_icon
+{
+    width: 10px;
+    height: 10px;
+}
+
+#drop_counter_label
+{
+    
+    color: rgb(77,132,152);
+    height: 28px;
+}
+
+#impersonal
+{
+    border: none;
+    background-color: transparent;
+}
+
+#contacts_sorting
+{
+
+}
+
+#chat_contacts
+{
+    background-color: rgb(48,51,60);
+}
+
+#dialog_tabs
+{
+    color: rgb(77,132,152);
+    
+    background-color: rgb(43,46,55);
+}
+
+QTabBar::tab
+{
+    color: rgb(57,112,122);
+    border: 1px solid rgb(48,51,60);
+    border-bottom: none;
+    background-color: rgb(43,46,55);
+    padding: 7px;
+    
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+QTabBar::tab:selected
+{
+    color: rgb(87,142,162);
+    background-color: rgb(38,41,50);
+    border: 1px solid rgb(38,41,50);
+}
+
+#dialog_tabs::pane
+{
+    background-color: rgb(38,41,50);
+    border: 1px solid rgb(38,41,50);
+    border-top: none;
+}
+
+#dialog_view, QScrollArea
+{
+    background-color: transparent;
+    border: none;
+}
+
+QTabBar::close-button, QTabBar::close-button:hover
+{
+    background-color: transparent;
+    image: url(":/rsc/icons/tab-close.png");
+    icon-size: 5px 5px;
+}
+
+#checkbox
+{
+    color: rgb(57,112,122);
+    
+}
+
+#checkbox::indicator
+{
+    border: 1px solid rgb(48,51,60);
+    color: rgb(57,112,122);
+}
+
+#checkbox::indicator:checked
+{
+    background-color: rgb(57,112,122);
+    border-radius: 10px;
+}
+
+QMessageBox
+{
+    background-color: rgb(43,46,55);
+    width: 400px;
+}
+
+QMessageBox QLabel
+{
+    color: rgb(77,132,152);
+    
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    border-radius: 3px;
+    height: 23px;
+    width: 162px;
+    color: rgb(77,132,152);
+    padding: 5px;
+}
+
+#contacts_scroll_widget
+{
+    background-color: transparent;
+}
+
+#contact_in_list
+{
+    background-color: transparent;
+}
+
+#contact_in_list[selected="true"]
+{
+    background-color: rgb(43,46,55);
+}
+
+#select_head
+{
+    border: 1px solid rgb(48,51,60);
+    border-radius: 3px;
+    background-color: rgb(38,41,50);
+}
+
+#select_text
+{
+    color: rgb(77,132,152);
+    
+}
+
+#select_body
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+}
+
+#select
+{
+    width: 140px;
+}
+
+QMenu
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    color: rgb(77,132,152);
+    icon-size: 8px 8px;
+}
+
+QMenu::item:selected
+{
+    background-color: rgb(33,36,45);
+    color: rgb(77,132,152);
+    height: 30px;
+}
+
+QMenu::icon
+{
+    margin-left: 5px;
+}
+
+#loading_progress, #loader, #authenticator
+{
+    background-color: rgb(33,36,45);
+}
+
+QProgressBar
+{
+    background-color: rgb(33,36,45);
+    selection-background-color: darkcyan;
+    height: 4px;
+}
+
+#main_menu_item_text
+{
+    color: rgb(77,132,152);
+}
+
+#main_menu_item
+{
+    border: 0;
+    border-bottom: 1px solid rgb(33,36,45);
+}
+
+#logo_label
+{
+    color: rgb(77,132,152);
+    min-width: 80px;
+    font-size: 30px!important;
+}
+
+QPushButton
+{
+    border: 1px solid rgb(48,51,60);
+    background-color: rgb(38,41,50);
+    border-radius: 3px;
+    height: 20px!important;
+    width: 162px;
+    color: rgb(77,132,152);
+    padding: 5px;
+}
